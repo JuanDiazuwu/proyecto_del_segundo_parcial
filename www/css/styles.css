@@ -37,17 +37,34 @@
 }
 
 
-.nav a, .nav-small a{
-  text-decoration: none;
+.headnav{
+text-decoration: none;
   text-decoration-color: white;
-  padding: .5vw 2vw;
+  padding: .05vw 1vw;
   color: white;
   font-family: 'fantasy';
  
   font-style: normal;
-  font-weight: 500;
-  font-size: 2vw;
-  line-height: 3.6vw;; 
+  font-weight: 50;
+  font-size: 1.5vw;
+  padding-right: 30px;
+  line-height: 3vw;; 
+
+  
+}
+
+.nav a, .nav-small a{
+  text-decoration: none;
+  text-decoration-color: white;
+  padding: .05vw 1vw;
+  color: white;
+  font-family: 'fantasy';
+ 
+  font-style: normal;
+  font-weight: 50;
+  font-size: 1.5vw;
+  padding-right: 30px;
+  line-height: 3vw;; 
 
 }
 
@@ -71,7 +88,7 @@
 }
 
 .intro-text h1{
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-style: normal;
   font-weight: 600;
   font-size: 5vw;
@@ -80,7 +97,7 @@
 }
 .intro-text h3{
   margin: 0%;
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-style: normal;
   font-weight: 600;
   font-size: 1.8vw;
@@ -101,7 +118,7 @@
 }
 
 .gallery h2{
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-style: normal;
   font-weight: 600;
   font-size: 2vw;
@@ -183,7 +200,7 @@
 
 .about{
   padding: 3% 10%;
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-style: normal;
 
 }
@@ -203,13 +220,13 @@
   text-align: center;
   font-size: 2.4vw;
   padding: 3% 10%;
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-style: normal;
 }
 
 .best-cars{
   padding: 6% 10%;
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-style: normal;
   position: relative;
   display: flex;
@@ -268,7 +285,7 @@
  align-items: center;
  border-radius: 5px;
  background: #185323;
- font-family: "Poppins";
+ font-family: "fantasy";
  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
  overflow: hidden;
  border: none;
@@ -324,7 +341,7 @@ button:after {
 }
 
 .contact-title h1{
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-style: normal;
   font-weight: 600;
   text-align: center;
@@ -332,20 +349,20 @@ button:after {
 
 .contact h2{
   padding: 1% 10%;
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-style: normal;
   text-align: justify;
 }
 
 .contact p{
   padding: 1% 10%;
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-style: normal;
   text-align: justify;
 }
 .contact ul{
   padding: 0% 12%;
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-style: normal;
   text-align: justify;
 }
@@ -366,7 +383,7 @@ form {
 
 .contact-input {
   color: black;
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
@@ -390,7 +407,7 @@ textarea {
 }
 
 [type="submit"] {
-  font-family: 'Poppins';
+  font-family: 'fantasy';
   width: 100%;
   background:#ffb648;
   border-radius:5px;
